@@ -164,7 +164,7 @@ class Scratch3YourExtension {
         // Return a string with hex representation of argument
         return MY_NUMBER.toString(16);
     }
-}
+
 
     /**
      * implementation of the block with the opcode that matches this name
@@ -174,7 +174,7 @@ class Scratch3YourExtension {
         // Return decimal value of hex argument
         return parseInt(MY_STRING, 16);
     }
-}
+
 
     /**
      * implementation of the block with the opcode that matches this name
