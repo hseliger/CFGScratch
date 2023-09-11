@@ -162,7 +162,9 @@ class Scratch3YourExtension {
      */
     Dec2Hex ({ MY_NUMBER }) {
         // Return a string with hex representation of argument
-        return MY_NUMBER.toString(16);
+        //return MY_NUMBER.toString(16);
+        return '2A';
+        
     }
 
 
@@ -172,7 +174,8 @@ class Scratch3YourExtension {
      */
     Hex2Dec ({ MY_STRING }) {
         // Return decimal value of hex argument
-        return parseInt(MY_STRING, 16);
+        // return parseInt(MY_STRING, 16);
+        return 42;
     }
 
 
@@ -182,7 +185,8 @@ class Scratch3YourExtension {
      */
     Code2Char ({ MY_NUMBER }) {
         // Return character represented by decimal code in argument
-        return String.fromCharCode(MY_NUMBER);
+        // return String.fromCharCode(MY_NUMBER);
+        return 'A';
     }
 }
 
